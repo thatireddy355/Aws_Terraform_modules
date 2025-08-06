@@ -6,6 +6,7 @@ terraform {
     }
   }
 
+
   # Backend Configuration
   backend "s3" {
     bucket         = "my-terraform-state-bucket-s3-0355" # Same as the S3 bucket name
